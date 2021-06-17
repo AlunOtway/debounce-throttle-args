@@ -1,0 +1,21 @@
+{
+  "name": "debounce-throttling",
+  "version": "1.0.0",
+  "description": "debounce and throttling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlunOtway/debounce-throttling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlunOtway/debounce-throttling/issues"
+  },
+  "homepage": "https://github.com/AlunOtway/debounce-throttling#readme",
+  "dependencies": {}
+}
