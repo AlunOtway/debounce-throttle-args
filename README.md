@@ -9,12 +9,17 @@ This encapsulation solves the of the this pointing problem and the parameter pro
 - Support for parameter transfer
 - Support for throttle value
 - Use "this" and "envent" normally
+
 #installation
+
+
     npm install debounce-throttle-args --save
 
 
 #demo
-html
+
+**html**
+
 
     <!DOCTYPE html>
     <html lang="en">
@@ -29,7 +34,8 @@ html
     <script src="../dist/bundle.js"></script>
     </html>
 
-main.js 
+
+**main.js**
 
 You may use webpack or browserify to package it
 

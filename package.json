@@ -1,6 +1,6 @@
 {
   "name": "debounce-throttle-args",
-  "version": "2.0.0",
+  "version": "3.0.0",
     "description": "debounce and throttle are easy use for parameter transfer,At the same time, using ‘this’ and ‘event’ is like using a callback function directly",
   "main": "index.js",
   "scripts": {
