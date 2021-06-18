@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/debounce-throttling.iml" filepath="$PROJECT_DIR$/.idea/debounce-throttling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../debounce-throttle-args/.idea/debounce-throttle-args.iml" filepath="$PROJECT_DIR$/../debounce-throttle-args/.idea/debounce-throttle-args.iml" />
     </modules>
   </component>
 </project>

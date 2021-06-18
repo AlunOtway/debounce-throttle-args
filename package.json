@@ -1,21 +1,24 @@
 {
-  "name": "debounce-throttling",
-  "version": "1.0.0",
-  "description": "debounce and throttling",
+  "name": "debounce-throttle-args",
+  "version": "2.0.0",
+    "description": "debounce and throttle are easy use for parameter transfer,At the same time, using ‘this’ and ‘event’ is like using a callback function directly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlunOtway/debounce-throttling.git"
+    "url": "git+https://github.com/AlunOtway/debounce-throttle-args.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "jianwei",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlunOtway/debounce-throttling/issues"
+    "url": "https://github.com/AlunOtway/debounce-throttle-args/issues"
   },
-  "homepage": "https://github.com/AlunOtway/debounce-throttling#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/AlunOtway/debounce-throttle-args#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^17.0.0"
+  }
 }

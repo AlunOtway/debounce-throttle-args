@@ -1,4 +1,4 @@
-function debounce(fn,timer) {
+function debounce(fn,delay,...args) {
     let temp = null;
     let coolDowned = true;
     return function callback() {
@@ -8,20 +8,22 @@ function debounce(fn,timer) {
         if (temp){
             clearTimeout(temp)
         }
+        [].unshift.apply(arguments,args)
         if (coolDowned){
             fn.apply(this,arguments)
         }
         coolDowned = false;
         temp = setTimeout(function () {
             coolDowned = true;
-        },timer)
+        },delay)
     }
 }
-function throttle(fn,timer) {
+function throttle(fn,delay,...args) {
     let preTime = 0;
     return function callback() {
+        [].unshift.apply(arguments,args)
         let currentTime = new Date().getTime()
-        if (currentTime-preTime > timer){
+        if (currentTime-preTime > delay){
             fn.apply(this,arguments)
             preTime = currentTime
         }
